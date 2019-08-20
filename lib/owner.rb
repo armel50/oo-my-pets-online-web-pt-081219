@@ -25,9 +25,8 @@ class Owner
   def self.reset_all 
     @@all.clear
   end 
-  
- 
-  
+
   def buy_cat
+    new_cat = Cat.new("hector",self)
   end
 end
