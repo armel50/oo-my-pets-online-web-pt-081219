@@ -29,4 +29,7 @@ class Owner
   def buy_cat(cat)
     new_cat = Cat.new(cat,self)
   end
+   def buy_cat(cat)
+    new_cat = Cat.new(cat,self)
+  end
 end
