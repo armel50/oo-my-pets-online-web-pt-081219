@@ -1,5 +1,5 @@
 class Owner 
-  attr_accessor :cats, :dogs
+  attr_accessor :cats, :dogs, :pets
   attr_reader :name, :species
   @@all = []
   def initialize(name)
@@ -42,7 +42,9 @@ class Owner
      self.cats.each{|el| el.mood = "happy"}
    end 
    
-   def sell_pets 
+   def sell_pets  
+     @pets = [dogs,cats] 
+     p @pets
    end
    
 end
