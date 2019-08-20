@@ -27,6 +27,6 @@ class Owner
   end 
 
   def buy_cat
-    new_cat = Cat.new("hector",self)
+   
   end
 end
