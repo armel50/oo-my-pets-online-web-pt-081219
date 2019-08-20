@@ -44,7 +44,8 @@ class Owner
    
    def sell_pets  
      @pets = [dogs,cats].flatten 
-     @pets.each {|el| el.mood = "nervous"}
+     @pets.each {|el| el.mood = "nervous"; el.owner = nil} 
+     
    end
    
 end
