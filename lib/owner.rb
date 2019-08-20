@@ -51,7 +51,7 @@ class Owner
    end 
    
    def list_pets
-    @pets = [dogs,cats].flatten 
+    
     "I have #{dogs.length} dog(s), and #{cats.length} cat(s)."
    end
    
