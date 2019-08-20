@@ -26,7 +26,8 @@ class Owner
     @@all.clear
   end 
   
-  def cats 
-    @cats
+ 
+  
+  def buy_cat
   end
 end
