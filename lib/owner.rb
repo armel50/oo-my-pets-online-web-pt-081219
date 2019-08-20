@@ -43,7 +43,7 @@ class Owner
    end 
    
    def sell_pets  
-     @pets = [dogs,cats] 
+     @pets = [dogs,cats].flatten 
      p @pets
    end
    
