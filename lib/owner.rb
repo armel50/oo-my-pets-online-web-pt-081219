@@ -34,8 +34,8 @@ class Owner
       new_dog = Dog.new(dog,self)
    end 
    
-   def walk_dogs(dog) 
-     p dog
+   def walk_dogs
+     p self.dog
    end
    
 end
