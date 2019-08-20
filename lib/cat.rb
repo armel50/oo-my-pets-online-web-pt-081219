@@ -3,6 +3,6 @@ class Cat
   def initialize(name,owner_object)
     @name = name 
     @owner_object = owner_object 
-    p owner_object
+   
   end
 end
