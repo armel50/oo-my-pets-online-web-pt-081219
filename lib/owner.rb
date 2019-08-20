@@ -44,7 +44,7 @@ class Owner
    
    def sell_pets  
      @pets = [dogs,cats].flatten 
-     p @pets
+     @pets.each {|el| el.mood = "nervous"}
    end
    
 end
